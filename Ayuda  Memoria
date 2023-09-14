@@ -4,7 +4,16 @@ git init
 git config --global user.name "usuarioDeGithub"
 git config --global user.email "emailDeGithub"
 git config --global -e
-
-
 git status veo el estado de los archivos
-git add. (va a pasar todos los archivos al area de ensayo).
+git add . (va a pasar todos los archivos al area de ensayo).
+git commit .m "descripcion" (creando una copia con el nombre de ka descripcion y pasando los archivos al repositorio local)
+
+git branch -M main (cree la rama main)
+git remote add origin https://github.com/Kahio88/PrimerGitHub.git (relacione mi GIT con GItHub)
+git push -u origin main (subo los archivos del repo local a GitHub)
+
+
+Hago cabios en el proyecto, para crear una segunda copia...
+git add .
+git commit .m "Cambios nuevo a las 16:46"
+git push
