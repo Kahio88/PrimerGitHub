@@ -1,0 +1,10 @@
+Descargar e instalar GIT
+
+git init 
+git config --global user.name "usuarioDeGithub"
+git config --global user.email "emailDeGithub"
+git config --global -e
+
+
+git status veo el estado de los archivos
+git add. (va a pasar todos los archivos al area de ensayo).
